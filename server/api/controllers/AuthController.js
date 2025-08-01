@@ -2,7 +2,7 @@ const User = require('../models/UserModel')
 const jwt = require('jsonwebtoken')
 
 // JWT Secret (in production, use environment variable)
-const JWT_SECRET = 'your-secret-key-here'
+const JWT_SECRET = process.env.JWT_SECRET || 'hht-training-center-timmy-is-the-best-developer-in-the-world'
 const JWT_EXPIRES_IN = '7d'
 
 // Generate JWT token
