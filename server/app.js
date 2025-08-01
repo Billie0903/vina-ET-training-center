@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express')
 const app = express()
 const path = require('path')
@@ -12,7 +13,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')))
 
 const mongoose = require('mongoose')
-const db = "mongodb://localhost:27017/training-center"
+const db = process.env.MONGODB_URI
 mongoose.connect(db)
    .then(console.log('Connect DB succeed !'))
    .catch(err => console.log('Connect db failed ! ' + err))
