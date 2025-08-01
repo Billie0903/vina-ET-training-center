@@ -130,20 +130,9 @@ training-center/
 ### File Upload
 - `POST /api/upload` - Upload course images
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
-
-Project Link: [https://github.com/your_username/training-center](https://github.com/your_username/training-center) 
+## Project Link
+Project Link: https://github.com/Billie0903/vina-ET-training-center
