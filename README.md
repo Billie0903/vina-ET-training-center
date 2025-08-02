@@ -84,36 +84,17 @@ training-center/
    npm install
    ```
 
-4. **Configure environment variables**
-   
-   Create a `.env` file in the server directory:
-   ```env
-   MONGODB_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret_key
-   PORT=3000
-   ```
-
-5. **Start the backend server**
+4. **Start the backend server**
    ```bash
    cd server
    npm start
    ```
 
-6. **Start the frontend development server**
+5. **Start the frontend development server**
    ```bash
    cd client
    npm run serve
    ```
-
-## Usage
-
-1. Open your browser and navigate to `http://localhost:8080`
-2. Register a new account or login with existing credentials
-3. Create, edit, and manage training courses
-4. Upload course images and materials
-5. View and interact with the course catalog
-
-## API Endpoints
 
 ### Authentication
 - `POST /api/auth/register` - User registration
@@ -132,7 +113,7 @@ training-center/
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## Project Link
 Project Link: https://github.com/Billie0903/vina-ET-training-center
