@@ -1,0 +1,12 @@
+# Database Configuration
+MONGODB_URI=mongodb://localhost:27017/training-center
+
+# JWT Configuration
+JWT_SECRET=hht-training-center-timmy-is-the-best-developer-in-the-world
+
+# Server Configuration
+PORT=3000
+NODE_ENV=development
+
+# CORS Configuration
+CORS_ORIGIN=http://localhost:8080
